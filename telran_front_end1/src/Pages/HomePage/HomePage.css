@@ -1,0 +1,71 @@
+.homepage {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner{
+    /* width: 1440px; */
+    height: 600px;
+    background-color: lightblue;
+    /* margin: auto; */
+    padding: 100px 70px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 25pt;    
+}
+
+.buttons{
+    font-size: 20pt;
+    margin:0px -30px;
+    padding: 50px 0px;
+    text-decoration: none;
+}
+
+.buttons a{
+    margin: 0px 25px;
+    padding: 25px 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.buttons a:hover{
+    background-color: white;
+    opacity: 1;
+    color:  black;
+}
+
+.category{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    padding: 100px 0px;
+    list-style: none;
+    display: flex;
+}
+
+.salesp {
+    height: 50px;
+    /* width: 1440px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.pagenm {
+    /* width: 1440px; */
+    margin: 50px 0px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.bannerpng{
+    display: flex;
+    width: 650px;
+    height: 550px;
+    /* border: 300px; */
+    margin: -480px 720px;
+    transform:scale(-1, 1);
+    overflow: hidden;
+};

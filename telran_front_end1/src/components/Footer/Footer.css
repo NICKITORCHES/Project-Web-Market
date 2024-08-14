@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+.leftBlock {
+    margin-right: auto;
+    width: 500px;
+}
+.sociallinks a{
+    
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.sociallinks{
+    /* padding: 0px 10px; */
+    display: flex;
+    position: static;    
+}
+
+.rightBlock {
+    width: 430px;
+    margin-left: auto;
+    color: black;
+}
+
+.rightBlock a {
+    color: black;
+}
+
+.rightBlock a:hover {
+    color: blue;
+}
+
+.map {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.instagram {
+    margin-left: 34px;
+    background-image: url(./icons8-instagram1.svg);
+    width: 50px;
+    height: 50px;
+}
+.whatsapp {
+    margin-left: 50px;
+    background-image: url(./icons8-whatsapp1.svg);
+    width: 50px;
+    height: 50px;
+}
+
+.text{
+    display: flex;
+}
+
+.sociallinkstxt a{
+    text-decoration: none;
+    color: black;
+    margin-left: 14px;
+}

@@ -1,0 +1,77 @@
+.logo {
+    margin: 19px 28px;
+    width: 72px;
+    height: 72px;
+    background-image: url(./image1.png);
+    background-size: cover;
+    list-style: none;
+}
+
+.Catalog {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin: 15px 50px;
+    height: 15px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border:2px solid #393;
+    background: #393;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;   
+    align-items: center;
+    justify-content: center; 
+    text-decoration: none;
+}
+
+ul.navigation {
+    margin-left: auto;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    /* line-height: 130%; */
+    color: black;
+}
+
+ul.navigation a {
+    margin-left: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+ul.navigation a:hover {
+    opacity: 0.5;
+    color: #393;
+}
+
+.home {
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.cart {
+    margin: 0px 3%;
+    background-image: url(./icons8-shopping_bag1.svg);
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+.header{
+    width: 1440px;
+    margin: auto;
+}
