@@ -64,7 +64,6 @@
     display: flex;
     width: 650px;
     height: 550px;
-    /* border: 300px; */
     margin: -480px 720px;
     transform:scale(-1, 1);
     overflow: hidden;
